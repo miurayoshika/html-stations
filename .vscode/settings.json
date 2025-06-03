@@ -1,3 +1,5 @@
 {
-    "livePreview.portNumber": 8080
+    "livePreview.portNumber": 8080,
+    "editor.tabSize": 2,
+    "editor.indentSize": "tabSize"
 }
