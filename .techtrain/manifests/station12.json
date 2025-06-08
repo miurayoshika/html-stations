@@ -1,0 +1,15 @@
+{
+  "name": "Station 12",
+  "id": 12,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station12",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "「Station12をクリア!」と表示されていること"
+  ]
+}

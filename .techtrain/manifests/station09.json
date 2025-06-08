@@ -1,0 +1,17 @@
+{
+  "name": "Station 09",
+  "id": 9,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station09",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "タブレットおよびスマートフォンでタイトルの文字が小さく表示されること",
+    "タブレットで説明の文字が小さく表示されること",
+    "スマートフォンで説明の文字が非表示になること"
+  ]
+}

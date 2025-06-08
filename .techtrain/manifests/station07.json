@@ -1,0 +1,15 @@
+{
+  "name": "Station 07",
+  "id": 7,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station07",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    ".card クラスを複数使ってカードのスタイルを適用し、レイアウトが使い回せていること"
+  ]
+}

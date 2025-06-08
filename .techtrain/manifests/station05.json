@@ -1,0 +1,16 @@
+{
+  "name": "Station 05",
+  "id": 5,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station05",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "img タグに alt 属性が設定され、画像に適した説明が設定されていること",
+    "カードの背景色とタイトルのコントラスト値が十分に大きいこと"
+  ]
+}

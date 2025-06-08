@@ -1,0 +1,17 @@
+{
+  "name": "Station 04",
+  "id": 4,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station04",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "header タグを使用していること",
+    "footer タグを利用していること",
+    "header タグの背景色が指定した色であること"
+  ]
+}

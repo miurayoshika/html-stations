@@ -1,0 +1,15 @@
+{
+  "name": "Station 08",
+  "id": 8,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station08",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    ".card の親要素のレイアウトが Flexbox によって制御されていること"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Station 15",
+  "id": 15,
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "yarn playwright test station15",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "最初はブラウザになにも表示されていないこと",
+    "3秒後に「大木 優」「山田 太郎」と表示されること"
+  ]
+}
