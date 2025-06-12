@@ -11,6 +11,13 @@ footer {
   height: 20px;
 }
 
+/* .main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} */
 .card {
   background-color: #ffffff;
   padding: 10px;
