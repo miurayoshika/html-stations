@@ -4,20 +4,19 @@ header {
 }
 body {
   background-color: #c4c4c4;
-  width: 300px;
 }
 footer {
   background-color: #ffffff;
   height: 20px;
 }
 
-/* .main{
+main{
   display: flex;
-  flex-direction: column;
+  gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-} */
+}
 .card {
   background-color: #ffffff;
   padding: 10px;
